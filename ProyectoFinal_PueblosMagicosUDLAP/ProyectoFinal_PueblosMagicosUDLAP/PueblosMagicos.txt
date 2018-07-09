@@ -1,0 +1,53 @@
+ATLIXCO
+18.912901
+-98.42937740000002
+Atlixco
+Atlixco: Disfruta de un excelente fin de semana con la familia y/o amigos en un maravilloso pueblo con una magica vista al Popo.
+
+CHIGNAHUAPAN
+19.8381653
+-98.03117120000002
+Chignahuapan
+Chingnahuapan: Un pueblo sacado de un libro de aventuras. Arboles, frutas, café y verde por todos lados. No te lo puedes perder.
+
+CHOLULA
+19.0667
+-98.3
+Cholula
+Cholula: Visita la pirámide más grande del mundo. Conoce los museos y entra en un pueblo del que jamás querrás salir.
+
+CUETZALAN
+20.02966
+-97.54134
+Cuetzalan
+Cuetzalan: Sumérgete en las aventuras de las cascadas y escaladas que ofrece este maravilloso pueblo. No vayas si no te quieres divertir.
+
+HUAUCHINANGO
+20.1759069
+-98.0628848
+Huauchinango
+Huauchinango: Un lugar único en el que tu y la naturaleza seran la pareja perfecta. Unete a los campos de flores y la naturaleza exótica de este pueblo.
+
+PAHUATLÁN
+20.2773974
+-98.15022160000001
+Pahuatlan
+Pahuatlán: Piérdete un fin de semana entre valles y flores para descubrir la paz verdadera. El camino es difícil, pero la recompensa es inimaginable.
+
+TLATLAUQUITEPEC
+19.8462903
+-97.49721779999999
+Tlatlauquitepec
+Tlatlauquitepec: Sientete libre entre el aire puro y la naturaleza en su máximo esplendor. Danzas y cultivos son escenas diarias en este pueblo.
+
+XICOTEPEC DE JUÁREZ
+20.2783898
+-97.96422619999998
+Xicotepec
+Xicotepc: Estar tan cerca de las nubes parece imposible hasta que llegas a este pueblo. Vive una experiencia única.
+
+ZACATLÁN
+19.93524
+-97.96105829999999
+Zacatlan
+Zacatlan: Un pueblo perfecto para acampar, caminar o simplemente pasar la tarde. Entre la niebla o los días despejados, cualquier panorama es perfecto.
