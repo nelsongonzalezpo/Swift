@@ -148,7 +148,7 @@ func goToMarket(total:Int, available:Int) -> Int{
     return change
 }
 
-goToMarket(total: 97, available: 98 )
+print(goToMarket(total: 97, available: 98))
 
 
 func loveCalculator(yourName: String, secondName: String)-> String{
@@ -206,4 +206,108 @@ func BMICalcularor(weight: Float, height: Float)-> String{
 
 print("")
 print(BMICalcularor(weight: 75, height: 1.74))
+print("")
+
+var arregloNombres = ["Juan", "Paco", "Pedro"]
+let apellido = "De La Mar"
+
+var cont = 0
+while(cont < arregloNombres.count){
+    print("Aqui viene uno")
+    print("Hola", arregloNombres[cont], apellido)
+    cont+=1
+    
+}
+
+arregloNombres.append("Rodri")
+print(arregloNombres)
+
+let arrayOfNumbers = [1,5,10,435,123,85]
+var sum = 0
+var i = 0
+
+while(i < arrayOfNumbers.count){
+    sum += arrayOfNumbers[i]
+    print("Ahora es ", sum)
+    i+=1
+}
+print("El final es ", sum)
+
+//Mas Bonito
+
+var suma = 0
+for number in arrayOfNumbers{
+    print(suma)
+    print("La suma de ", suma, "y ", number)
+    suma += number
+    print(suma)
+}
+
+
+var sumNumber = 0
+for number in 1...10{
+    print("El numero")
+    print(number)
+    print("La suma \(sumNumber)")
+    sumNumber += number
+    print("La nueva suma", sumNumber)
+}
+
+
+var sumaPar = 0
+for number in 1...10 where number % 2 == 0{
+    print("El par",number)
+    sumaPar += number
+    print("La suma par \(sumaPar)")
+    
+}
+
+
+func imprimirCancionFea(numero:Int){
+    let parrafo1 = "bottles of beer on the wall"
+    let parrafo2 = "bottles of beer"
+    
+    let parrafo3 = "take one down and pass it arround"
+
+
+   for number in (1...numero).reversed(){
+        print(number, parrafo1, number, parrafo2)
+        print(parrafo3, number-1, parrafo1)
+    }
+}
+
+//Quitar el comentario para ver la funcion
+//print(imprimirCancionFea(numero:100))
+
+
+//FIBONACCI CHALLENGE
+
+print("")
+print("FIBONACCI")
+print("")
+
+func fibonacciX(numero:Int){
+    var resultado = 0
+    if(numero == 0){
+        print("Fibonacci", resultado)
+    }
+    
+    else if(numero == 1){
+        resultado = 1
+        print("Fibonacci ", resultado)
+    }
+    
+    else{
+        var var1 = 0
+        var var2 = 1
+        for number in(0...numero){
+            resultado = var1 + var2
+            print(resultado)
+            var1 = var2
+            var2 = resultado
+        }
+    }
+}
+
+fibonacciX(numero: 100)
 
