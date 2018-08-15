@@ -23,10 +23,7 @@ class ViewController: UIViewController {
     @IBAction func logIn(_ sender: Any) {
         signIn()
     }
-    
-    
-    
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +33,15 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if let user = Auth.auth().currentUser{
+            self.performSegue(withIdentifier: "toHomeScreen", sender: self)
+        }
     }
 
     @objc func signIn(){

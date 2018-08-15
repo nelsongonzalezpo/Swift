@@ -30,6 +30,8 @@ class SignUpViewController: UIViewController, UITextFieldDelegate{
     }
     
     
+   
+    
     
     @objc func handleSignUp(){
         
@@ -46,6 +48,9 @@ class SignUpViewController: UIViewController, UITextFieldDelegate{
                 print("NOT added")
             }
         }
+        
+        print("User ", mail)
+        print("Password ",password)
         
     }
     

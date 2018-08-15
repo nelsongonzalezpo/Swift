@@ -13,5 +13,16 @@ import Firebase
 class AppViewController:UIViewController, UITextFieldDelegate{
     
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    @IBAction func logOutButton(_ target: Any) {
+        
+        try! Auth.auth().signOut()
+        self.dismiss(animated: false, completion: nil)
+    }
+    
+    
     
 }
