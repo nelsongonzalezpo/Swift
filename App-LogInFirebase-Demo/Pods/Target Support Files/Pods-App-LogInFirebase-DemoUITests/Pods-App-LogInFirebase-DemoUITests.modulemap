@@ -1,0 +1,6 @@
+framework module Pods_App_LogInFirebase_DemoUITests {
+  umbrella header "Pods-App-LogInFirebase-DemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
