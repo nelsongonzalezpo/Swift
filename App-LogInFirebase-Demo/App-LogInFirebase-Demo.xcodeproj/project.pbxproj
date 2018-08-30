@@ -19,6 +19,7 @@
 		ACAAD291212497AA0016332A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACAAD290212497AA0016332A /* GoogleService-Info.plist */; };
 		ACAAD29521249CDC0016332A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAAD29421249CDC0016332A /* SignUpViewController.swift */; };
 		ACAAD29721249CE20016332A /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAAD29621249CE20016332A /* AppViewController.swift */; };
+		ACE4B48F212634A200F3082B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACE4B48E212634A200F3082B /* GoogleService-Info.plist */; };
 		DA3ADA0201CF39BA1054AC91 /* Pods_App_LogInFirebase_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C055DAC652251632D08636 /* Pods_App_LogInFirebase_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		ACAAD290212497AA0016332A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ACAAD29421249CDC0016332A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ACAAD29621249CE20016332A /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		ACE4B48E212634A200F3082B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B6234754890238283BFF00E3 /* Pods-App-LogInFirebase-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-LogInFirebase-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App-LogInFirebase-Demo/Pods-App-LogInFirebase-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		BF553BCB18BD851DAC059B74 /* Pods-App-LogInFirebase-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-LogInFirebase-DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App-LogInFirebase-DemoTests/Pods-App-LogInFirebase-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C12B550E368FA55BD777F548 /* Pods-App-LogInFirebase-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-LogInFirebase-DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-App-LogInFirebase-DemoUITests/Pods-App-LogInFirebase-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				ACAAD266212496600016332A /* Main.storyboard */,
 				ACAAD269212496610016332A /* Assets.xcassets */,
 				ACAAD26B212496610016332A /* LaunchScreen.storyboard */,
+				ACE4B48E212634A200F3082B /* GoogleService-Info.plist */,
 				ACAAD26E212496610016332A /* Info.plist */,
 				ACAAD290212497AA0016332A /* GoogleService-Info.plist */,
 			);
@@ -289,6 +292,7 @@
 			files = (
 				ACAAD26D212496610016332A /* LaunchScreen.storyboard in Resources */,
 				ACAAD291212497AA0016332A /* GoogleService-Info.plist in Resources */,
+				ACE4B48F212634A200F3082B /* GoogleService-Info.plist in Resources */,
 				ACAAD26A212496610016332A /* Assets.xcassets in Resources */,
 				ACAAD268212496600016332A /* Main.storyboard in Resources */,
 			);
