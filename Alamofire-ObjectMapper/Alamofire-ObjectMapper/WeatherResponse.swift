@@ -6,39 +6,36 @@
 //  Copyright © 2018 Nelson Gonzalez. All rights reserved.
 //
 
-import Foundation
-import Alamofire
 import ObjectMapper
 
-class Currency: Mappable{
+class WeatherResponse: Mappable {
+    var location: String?
+    var threeDayForecast: [Forecast]?
     
-    var monedas: [Currencies]?
-    
-    required init?(map: Map) {
+    required init?(map: Map){
+        
     }
     
     func mapping(map: Map) {
-        
+        location <- map["location"]
+        threeDayForecast <- map["three_day_forecast"]
     }
-    
-        
 }
-    
-    
-    
 
-
+class Forecast: Mappable {
+    var day: String?
+    var temperature: Int?
+    var conditions: String?
     
-
-
-class Currencies: Mappable{
-    
-    required init?(map: Map) {
+    required init?(map: Map){
+        
     }
     
     func mapping(map: Map) {
-        
+        day <- map["day"]
+        temperature <- map["temperature"]
+        conditions <- map["conditions"]
     }
-    
-    
 }
+    
+    

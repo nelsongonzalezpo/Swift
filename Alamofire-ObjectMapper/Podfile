@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Alamofire-ObjectMapper' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Alamofire-ObjectMapper
+
+  target 'Alamofire-ObjectMapperTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Alamofire-ObjectMapperUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+  
+  pod 'Alamofire'
+  pod 'ObjectMapper'
+  pod 'AlamofireObjectMapper'
+
+end
